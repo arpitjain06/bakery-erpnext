@@ -4,6 +4,7 @@
 // print heading
 cur_frm.pformat.print_heading = 'Invoice';
 
+{% include 'bakery_store/customization/sales_invoice/sales_invoice.js' %}
 {% include 'selling/sales_common.js' %};
 
 frappe.provide("erpnext.accounts");
